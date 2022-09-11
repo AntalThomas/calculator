@@ -4,34 +4,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Links CSS, JS and favicon -->
     <link href="styles.css" rel="stylesheet">
-    <script src="script.js"></script>
-    <title>Calculator</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <script src="script.js" defer></script>
+    <title>Calculator Project</title>
 </head>
 <body>
-    <div id="calculator-grid">
-        <div id="calculator-screen">
-            <div id="previous-equation"></div>
-            <div id="current-equation"></div>
+    <!-- Whole calculator -->
+    <div id="calculator-case">
+        <div id="calculator-grid">
+            <!-- Displays equations -->
+            <div id="calculator-screen">
+                <div id="previous-equation"></div>
+                <div id="current-equation"></div>
+            </div>
+            <!-- Buttons to provide values/operators -->
+            <button class="button double-size">AC</button>
+            <button class="button">DEL</button>
+            <button class="button">/</button>
+            <button class="button">1</button>
+            <button class="button">2</button>
+            <button class="button">3</button>
+            <button class="button">*</button>
+            <button class="button">4</button>
+            <button class="button">5</button>
+            <button class="button">6</button>
+            <button class="button">+</button>
+            <button class="button">7</button>
+            <button class="button">8</button>
+            <button class="button">9</button>
+            <button class="button">-</button>
+            <button class="button">.</button>
+            <button class="button">0</button>
+            <button class="button double-size">=</button>
         </div>
-        <button class="double-size">AC</button>
-        <button>DEL</button>
-        <button>÷</button>
-        <button>1</button>
-        <button>2</button>
-        <button>3</button>
-        <button>*</button>
-        <button>4</button>
-        <button>5</button>
-        <button>6</button>
-        <button>+</button>
-        <button>7</button>
-        <button>8</button>
-        <button>9</button>
-        <button>-</button>
-        <button>.</button>
-        <button>0</button>
-        <button class="double-size">=</button>
     </div>
 </body>
 </html>
